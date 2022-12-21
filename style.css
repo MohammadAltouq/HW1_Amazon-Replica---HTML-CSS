@@ -1,0 +1,121 @@
+html{
+    height: 100%;
+}
+body{
+    border: black solid 1px;
+    height: 120%;
+    margin: 0;
+    font-family: Arial;
+    /* display: flex; 
+    align-items: center;
+    justify-content: center; */
+}
+footer{
+    position:sticky;
+    width: 100%;
+    height: fit-content;
+    top: 90%; 
+    text-align: center;
+    font-size: smaller;
+}
+footer a{
+    text-decoration: none;
+    color: #0066cc;
+}
+#logo{
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+
+
+}
+.formdiv{
+    border: black solid 1px;
+    display: block;
+    align-self: center;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+form{
+    margin: 5%;
+    align-items: center;
+    font-size: small;
+}
+#sighin {
+font-size: x-large;
+   margin-top: 5px; 
+   margin-bottom: 10px;
+   margin-left: 6%;
+}
+#needhelp{
+    font-size: small;
+    margin-left: 6%;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+#needhelp a{
+    text-decoration: none;
+    color: #0066cc;
+}
+form a{
+    display: inline-block;
+    margin-left: 40%;
+    text-decoration: none;
+    color: #0066cc;
+}
+input{
+    display:block;
+    width:90%;
+    height: 30px;
+    margin-top: 5px;
+}
+#Continue:hover{
+    background-color: #c4a966;
+}
+#Continue:active{
+    box-shadow: 0 0 10px #f48f01;
+}
+#Continue{
+    transition:cubic-bezier(5);
+    border: none;
+    background-color: #f3cb67;
+    width: 92%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #f3cb67;
+}
+#divnewtoamazon{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#newtoamazon{
+    width: fit-content;
+    margin: 5px;
+    color: gray;
+}
+#before{
+    background-color: gray;
+    height: 1px;
+    width: 110px;
+}
+#after{
+    background-color: gray;
+    height: 1px;
+    width: 110px;
+}
+#cyaa{
+    background-color: rgb(213, 210, 210);
+    border: none;
+    display: block;
+    align-items: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
